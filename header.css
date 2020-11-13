@@ -1,0 +1,50 @@
+/* ===== HEADER STYLES ===== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(235,108,125,.15);
+}
+
+.main-header {
+    text-align: center;
+}
+
+h1 {
+    font: bold 3rem "Calligraffitti";
+    color: rgb(100,100,100);
+    text-align: center;
+    padding: 0% 5%;
+    background: url(rosa-header.jpg) repeat;
+}
+
+.tagline {
+    font: 1.4rem "Calligraffitti";
+    letter-spacing: 1px;
+    padding: 2% 0%;
+    margin: 2% 5%;
+    border-top: 0.05rem solid rgb(150,150,150);
+    border-bottom: 0.05rem solid rgb(150,150,150);
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo-big {
+    width: 50vw;
+    max-width: 300px;
+}
+
+.header-logo {
+    background-color: white;
+    padding: 1rem 0;
+}
+
+.content {
+    font-family: "Open Sans";
+    height: 100vh;
+    padding: 2% 5%;
+}

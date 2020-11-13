@@ -1,0 +1,97 @@
+/* ===== GENERAL STYLES ===== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Cormorant Garamond";
+    overflow-x: hidden;
+}
+
+/* ===== HEADER STYLES ===== */
+
+.fullpage-header {
+    background: rgba(0,0,0) url(https://orange.codeberryschool.com/content/images/project-assets/page-header-bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    color: hsla(0,0%,100%,.7);
+    display: table;
+}
+
+.wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Byline Styles */
+
+h2 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.time-and-date {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+/* Headline Styles */
+
+.headline {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* Tagline Styles */
+
+.tagline {
+    max-width: 1200px;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.tag {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    margin: 0% 5%;
+    padding: 1rem 0;
+    border-top: 0.05rem solid rgb(150,150,150);
+    border-bottom: 0.05rem solid rgb(150,150,150);
+}
+
+/* ===== CONTENT STYLES ===== */ 
+
+.content {
+    line-height: 1.5rem;
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.post p {
+    font-family: "Libre Franklin";
+    text-align: justify;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1224px) {
+    .headline {
+    font-size: 6rem;
+    }
+    .post {
+        line-height: 2rem;
+    }
+}
