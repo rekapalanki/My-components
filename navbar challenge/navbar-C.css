@@ -42,9 +42,21 @@ nav a:hover {
 
 /* Article styles */
 
-article {
+p {
+    font-size: 1rem;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 1.25rem;
     padding: 1rem;
-}
+  }
+  
+  @media (min-width: 768px) {
+  
+    body {
+      width: 60%;
+      margin: 5.25rem auto 1.25rem;        /* Positioning the content below the navbar */
+    }
+  
+  }
 
 /***** MEDIA QUERIES *****/
 
@@ -73,10 +85,5 @@ article {
         clear: both;
         display: block;
       }
-
-    article {
-        transform: translate(0, 80px);
-        padding: 0 20% 2%;
-    }
 
 }
