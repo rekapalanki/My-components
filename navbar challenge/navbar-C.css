@@ -1,0 +1,74 @@
+/* General styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+}
+
+/* Fixed navbar */
+
+nav {
+    padding: .5rem 1rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+nav a {
+    display: block;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #999;
+    transition: color .3s ease-in-out;
+}
+
+.signUp:hover {
+    color: #000;
+    background-color: #fff;
+    transition: background-color .3s ease-in-out;
+}
+
+.signUp {
+    border: 1px solid #555;
+    border-radius: 999999px;
+}
+
+/* Article styles */
+
+article {
+    padding: 1rem;
+}
+
+/***** MEDIA QUERIES *****/
+
+@media (min-width: 600px) {
+
+    nav {
+        width: 100vw;
+        position: fixed;
+        padding: 1rem 2rem;
+    }
+
+    nav a {
+        display: inline-block;
+        width: 7rem;
+        float: right;
+    }
+
+    .home {
+        float: left;
+    }
+
+    article {
+        transform: translate(0, 100px);
+        padding: 0 20%;
+    }
+
+}
