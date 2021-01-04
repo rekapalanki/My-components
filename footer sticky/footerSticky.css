@@ -1,0 +1,63 @@
+/* GENERAL STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Calibri;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.wrapper {
+    position: relative;
+    height: 100vh;
+    padding-bottom: 120px;   /* The .wrapper got the same padding-bottom as the height of the footer, so the content don't touches the footer.  */
+}
+
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    font-size: 3rem;
+}
+
+p {
+    text-align: center;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    width: 100vw;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    padding: 2%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+small, footer a {
+    font-size: 1rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+#copyright {
+    padding-bottom: 1%;
+}
+
+footer a {
+    padding: 0 1%;
+}
