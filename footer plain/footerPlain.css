@@ -1,0 +1,79 @@
+/* GENERAL STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Calibri;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* HEADER AND ARTICLE STYLES */
+
+header, article {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    font-size: 3rem;
+}
+
+article {
+    padding-bottom: 4%;
+}
+
+h2 {
+    padding-bottom: 2%;
+    font-size: 2rem;
+}
+
+/* FIGURE STYLES */
+
+img {
+    width: 800px;
+}
+
+figcaption {
+    padding-bottom: 2%;
+    font-size: 1rem;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    text-align: center;
+    padding: 2% 0;
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+    color: #fff;
+}
+
+#copyright {
+    padding-bottom: 1%;
+}
+
+small {
+    font-size: 1rem;
+}
+
+footer a {
+    padding: 0 1%;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #c74f78;
+}
+
+footer a:hover {
+    color: #f26896;
+    transition: color 0.15s ease-in-out;
+}

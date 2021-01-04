@@ -1,0 +1,85 @@
+/* Basic styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Cooper Black";
+    color: #fff;
+}
+
+/* General footer styles */
+
+footer {
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+}
+
+.footerContent {
+    margin-left: 9rem;
+}
+
+img {
+    width: 250px;
+    float: left;
+    padding: 1rem;
+    margin-right: 3rem;
+}
+
+/* Positioning footer content */
+
+.footerLinks1, .footerLinks2, .icons li, .getUpdates {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* Footer styles */
+
+.footerLinks1, .footerLinks2 {
+    float: left;
+    background-color: rgba(250, 0, 0, .3);
+}
+
+.footerLinks1 a, .footerLinks2 a {
+    display: block;
+    padding-bottom: 2rem;
+    text-decoration: none;
+}
+
+.icons {
+    float: left;
+    background-color: rgba(250, 250, 0, .3);
+}
+
+.icons li {
+    
+}
+
+.getUpdates {
+    float: left;
+    background-color: rgba(0, 250, 250, .5);
+}
+
+input {
+    display: block;
+    margin: 2rem 0;
+}
+
+.footerContent::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.footerBottom {
+    text-align: center;
+    line-height: 1.5rem;
+    font-family: Arial;
+    font-size: 0.8rem;
+    background-color: #000;
+    color: #fff;
+}
