@@ -1,0 +1,70 @@
+/* GENERAL STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin-bottom: 120px;
+    font-family: Calibri;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+/* MAIN CONTENT STYLES */
+
+.content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    font-size: 3rem;
+}
+
+article, h2 {
+    padding-bottom: 2%;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1.7rem 0;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+#copyright {
+    padding-bottom: 0.9rem;
+}
+
+#footerLinks a {
+    padding: 0 0.9rem;
+    text-decoration: none;
+    color: #CBB26A;
+}
+
+strong {
+    font-weight: bold;
+}
+
+small, footer a {
+    font-size: 1rem;
+}
