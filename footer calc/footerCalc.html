@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <!-- META INFO  -->
+
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="description" content="Footer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SCRIPTS, CSS -->
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" type="text/css" href="./footerCalc.css" />
+    <script src="./scripts/footerScripts.js" defer></script>
+    <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>The Footer Problem</h1>
+        </header>
+        <article>
+            <h2>Calculating the size of the footer</h2>
+            <p>There are several resolutions of creating a footer. If the content exceeds the height of the viewport,
+                then there is no need to fix it to the bottom. If the content is smaller than the viewport, then the
+                footer actually needs to positioned to the bottom of the page. There are several opportunities to fulfil
+                that. <br>
+                One opportunity is that the whole content needs to be wrapped into one single container. Then,
+                let's set the container's position to absolute and its height needs to set to 100vh. Then, set the
+                footer's position to absolute and position it to the bottom of the page.<br>
+                <strong>Problem:</strong> It works only if the footer's height is fixed. Not a big deal, just know about
+                it. <br><br>
+                Another solution is to set the footer outside the wrapper. Then, calculate the height of the wrapper by
+                excluding the height of the footer. <br>
+                <strong>Problem:</strong> In this case, the height of the footer needs to be set as well.<br><br>
+            </p>
+        </article>
+
+        <article>
+            <h2>Calculating the size of the footer</h2>
+            <p>There are several resolutions of creating a footer. If the content exceeds the height of the viewport,
+                then there is no need to fix it to the bottom. If the content is smaller than the viewport, then the
+                footer actually needs to positioned to the bottom of the page. There are several opportunities to fulfil
+                that. <br>
+                One opportunity is that the whole content needs to be wrapped into one single container. Then,
+                let's set the container's position to absolute and its height needs to set to 100vh. Then, set the
+                footer's position to absolute and position it to the bottom of the page.<br>
+                <strong>Problem:</strong> It works only if the footer's height is fixed. Not a big deal, just know about
+                it. <br><br>
+                Another solution is to set the footer outside the wrapper. Then, calculate the height of the wrapper by
+                excluding the height of the footer. <br>
+                <strong>Problem:</strong> In this case, the height of the footer needs to be set as well.<br><br>
+            </p>
+        </article>
+    </div>
+
+    <footer>
+        <div id="copyright"><small>(C) 2017 <strong>Awesome Company</strong>, All Rights Reserved</small></div>
+        <nav id="footerLinks">
+            <a href="#">Back to Top</a>
+            <a href="#">Terms Of Use</a>
+            <a href="#">Privacy</a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

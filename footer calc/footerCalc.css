@@ -1,0 +1,58 @@
+/* GENERAL STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Calibri;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+/* MAIN CONTENT STYLES */
+
+.wrapper {
+    width: 800px;
+    min-height: calc(100vh - 120px);
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    font-size: 3rem;
+}
+
+article, h2 {
+    padding-bottom: 2%;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    width: 100vw;
+    height: 120px;
+    padding: 2% 0;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+#copyright {
+    padding-bottom: 1%;
+}
+
+strong {
+    font-weight: bold;
+}
+
+small, footer a {
+    font-size: 1rem;
+}
